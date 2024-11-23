@@ -297,16 +297,9 @@ main {
 .video-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* Creates 4 equal columns */
-  gap: 10px; /* Optional, adds space between videos */
+  gap: 1rem; /* Optional, adds space between videos */
   width: 100vw; /* Ensures the container takes up the full width of the viewport */
-  padding: 10px; /* Optional padding around the container */
-}
-
-.video {
-  width: 100%; /* Each iframe takes up 100% of the grid column */
-  height: 0; /* To control height using padding */
-  padding-bottom: 56.25%; /* Aspect ratio of 16:9 (height/width = 9/16 = 0.5625) */
-  border: none; /* Removes the iframe border */
-  display: block; /* Ensures the iframe is block-level to prevent any unexpected spacing */
+  padding: 0.5rem;
+  margin-top: 5rem;
 }
 
