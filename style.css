@@ -79,7 +79,7 @@
   margin-top: 3rem;
 }
 
-#searchbar {
+.searchbar {
   margin-left: 4%;
   padding: 1.1rem;
   border-radius: 20px;
@@ -146,11 +146,6 @@ main {
   align-items: center;
   margin: 2.5rem 0rem 1rem 0rem;
 }
-#japanesesearchbar {
-  margin-left: 4%;
-  padding: 1.1rem;
-  border-radius: 20px;
-}
 .japaneseTags {
   display: flex;
   justify-content: space-evenly;
@@ -184,11 +179,6 @@ main {
   justify-content: space-around;
   align-items: center;
   margin: 2.5rem 0rem 1rem 0rem;
-}
-#shemalesearchbar {
-  margin-left: 4%;
-  padding: 1.1rem;
-  border-radius: 20px;
 }
 .shemaleTags {
   display: flex;
@@ -224,11 +214,6 @@ main {
   align-items: center;
   margin: 2.5rem 0rem 1rem 0rem;
 }
-#malesearchbar {
-  margin-left: 4%;
-  padding: 1.1rem;
-  border-radius: 20px;
-}
 .malepornstarName {
   font-family: "Dancing Script", cursive;
   font-size: 1.5rem;
@@ -240,11 +225,6 @@ main {
   align-items: center;
   margin: 2.5rem 0rem 1rem 0rem;
 }
-#sitesearchbar {
-  margin-left: 4%;
-  padding: 1.1rem;
-  border-radius: 20px;
-}
 .sitepornstarName {
   font-family: "Dancing Script", cursive;
   font-size: 1.5rem;
@@ -255,11 +235,6 @@ main {
   justify-content: space-around;
   align-items: center;
   margin: 2.5rem 0rem 1rem 0rem;
-}
-#ofsearchbar {
-  margin-left: 4%;
-  padding: 1.1rem;
-  border-radius: 20px;
 }
 .ofpornstarName {
   font-family: "Dancing Script", cursive;
@@ -286,11 +261,6 @@ main {
   margin: 6rem 0rem 2rem 0rem;
   font-family: "Lobster", cursive;
   font-size: 4.5rem;
-}
-#cuckoldsearchbar {
-  margin-left: 4%;
-  padding: 1.1rem;
-  border-radius: 20px;
 }
 
 /* video  */

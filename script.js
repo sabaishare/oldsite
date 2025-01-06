@@ -123,3 +123,56 @@ function search_ofpornstars() {
 		}
 	}
 }
+
+//  ------------Comic page ------------------- 
+//  ------------comic video search------------- 
+function search_comicvideos() {
+	let input = document.getElementById('comicvideoNamesearchbar').value
+	input=input.toLowerCase();
+	console.log(input);
+
+	let comicvideoName = document.getElementsByClassName('comicvideoName');
+	
+	for (i = 0; i < comicvideoName.length; i++) {
+		if (!comicvideoName[i].innerHTML.toLowerCase().includes(input)) {
+			comicvideoName[i].parentNode.parentNode.style.display="none";
+		}
+		else {
+			comicvideoName[i].parentNode.parentNode.style.display="flex";	
+		}
+	}
+}
+//  ------------comic henati search------------- 
+function search_comichentai() {
+	let input = document.getElementById('comichentaisearchbar').value
+	input=input.toLowerCase();
+	console.log(input);
+
+	let comichentaiName = document.getElementsByClassName('comichentaiName');
+	
+	for (i = 0; i < comichentaiName.length; i++) {
+		if (!comichentaiName[i].innerHTML.toLowerCase().includes(input)) {
+			comichentaiName[i].parentNode.parentNode.style.display="none";
+		}
+		else {
+			comichentaiName[i].parentNode.parentNode.style.display="flex";	
+		}
+	}
+}
+//  ------------comic book search------------- 
+function search_comicbook() {
+	let input = document.getElementById('comicbooksearchbar').value
+	input=input.toLowerCase();
+	console.log(input);
+
+	let comicbookName = document.getElementsByClassName('comicbookName');
+	
+	for (i = 0; i < comicbookName.length; i++) {
+		if (!comicbookName[i].innerHTML.toLowerCase().includes(input)) {
+			comicbookName[i].parentNode.parentNode.style.display="none";
+		}
+		else {
+			comicbookName[i].parentNode.parentNode.style.display="flex";	
+		}
+	}
+}
