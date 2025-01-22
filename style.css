@@ -272,4 +272,7 @@ main {
   padding: 0.5rem;
   margin-top: 5rem;
 }
+.left-text{
+  text-align: left;
+}
 
